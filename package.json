@@ -1,0 +1,27 @@
+{
+  "name": "local_host_project",
+  "version": "1.0.0",
+  "description": "It will save data in local host",
+  "main": "script.js",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivamKashyap/Bootstrap_Project_1.git"
+  },
+  "author": "Shivam Kashyap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivamKashyap/Bootstrap_Project_1/issues"
+  },
+  "homepage": "https://github.com/ShivamKashyap/Bootstrap_Project_1#readme"
+}

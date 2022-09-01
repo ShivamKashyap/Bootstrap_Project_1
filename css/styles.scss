@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+/* font-family: 'Aboreto', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+/* font-family: 'Source Code Pro', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+/* font-family: 'Signika Negative', sans-serif; */
+
+/* Variables */
+$brandingSize: 2.5rem;
+$fontColor: floralwhite;
+$primaryColor: #BA0000;
+
+html {
+  font-size: 80%;
+}
+
+@mixin containerCenter($display : flex) {
+  display: $display;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  background-color: $primaryColor;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+  transition: all ease-in .4s;
+
+  .container {
+    h1,
+    i {
+      font-size: $brandingSize;
+      color: $fontColor;
+    }
+
+    i {
+      font-size: $brandingSize + 1rem;
+    }
+
+    .__packer {
+      @include containerCenter($display : flex);
+      height: $brandingSize + 1rem;
+
+      button{
+        @include containerCenter($display : flex);
+        padding: 0px;
+        border: 1px solid $fontColor;
+        border-radius: 5rem;
+      }
+
+      p {
+        height: 0.25rem;
+        width: 10rem;
+        color: floralwhite;
+        background-color: floralwhite;
+        bottom: -1rem;
+        position: absolute;
+        left: 10rem;
+      }
+
+      #addNote_icon{
+        width: 2.4rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: floralwhite;
+        color: #BA0000!important;
+        font-size: 2.4rem;
+      }
+
+      .__addNoteBtn{
+        color: $fontColor!important;
+        font-weight: 500;
+      }
+    }
+
+    form{
+      .__searchBtn{
+        outline: $fontColor;
+        color: $fontColor;
+      }
+      input:focus{
+        outline-color: floralwhite;
+      }
+    }
+  }
+}
