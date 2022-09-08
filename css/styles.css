@@ -3,10 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
 /* font-family: 'Source Code Pro', monospace; */
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+
 /* font-family: 'Signika Negative', sans-serif; */
 /* Variables */
 html {
-  font-size: 80%; }
+  font-size: 62.5%;
+}
 
 .jumbotron {
   background-color: #BA0000;
@@ -14,55 +16,79 @@ html {
   top: 0px;
   z-index: 9999;
   transition: all ease-in .4s;
-  margin-bottom: 1rem !important; }
-  .jumbotron .container h1,
-  .jumbotron .container i {
-    font-size: 2.5rem;
-    color: floralwhite; }
-  .jumbotron .container i {
-    font-size: 3.5rem; }
-  .jumbotron .container .__packer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3.5rem; }
-    .jumbotron .container .__packer button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0px;
-      border: 1px solid floralwhite;
-      border-radius: 5rem; }
-    .jumbotron .container .__packer p {
-      height: 0.25rem;
-      width: 10rem;
-      color: floralwhite;
-      background-color: floralwhite;
-      bottom: -1rem;
-      position: absolute;
-      left: 10rem; }
-    .jumbotron .container .__packer #addNote_icon {
-      width: 2.4rem;
-      display: flex;
-      justify-content: center;
-      border-radius: 50%;
-      background-color: floralwhite;
-      color: #BA0000 !important;
-      font-size: 2.4rem; }
-    .jumbotron .container .__packer .__addNoteBtn {
-      color: floralwhite !important;
-      font-weight: 500; }
-  .jumbotron .container form .__searchBtn {
-    outline: floralwhite;
-    color: floralwhite; }
-  .jumbotron .container form input:focus {
-    outline-color: floralwhite; }
-  .jumbotron .btn:focus {
-    box-shadow: 0 0 0 0.2rem #ffffd2a1; }
+  margin-bottom: 1rem !important;
+}
 
-#mainBody {
-  position: relative; }
-  #mainBody .__cardMainBodyPacker {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; }
+.jumbotron .container h1,
+.jumbotron .container i {
+  font-size: 2.5rem;
+  color: floralwhite;
+}
+
+.jumbotron .container i {
+  font-size: 3.5rem;
+}
+
+.jumbotron .container .__packer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+}
+
+.jumbotron .container .__packer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border: 1px solid floralwhite;
+  border-radius: 5rem;
+}
+
+.jumbotron .container .__packer p {
+  height: 0.25rem;
+  width: 10rem;
+  color: floralwhite;
+  background-color: floralwhite;
+  bottom: -1rem;
+  position: absolute;
+  left: 10rem;
+}
+
+.jumbotron .container .__packer #addNote_icon {
+  width: 2.4rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: floralwhite;
+  color: #BA0000 !important;
+  font-size: 2.4rem;
+}
+
+.jumbotron .container .__packer .__addNoteBtn {
+  color: floralwhite !important;
+  font-weight: 500;
+}
+
+.jumbotron .container form .__searchBtn {
+  outline: floralwhite;
+  color: floralwhite;
+}
+
+.jumbotron .container form input:focus {
+  outline-color: floralwhite;
+}
+
+.jumbotron .btn:focus {
+  box-shadow: 0 0 0 0.2rem #ffffd2a1;
+}
+
+/* #mainBody {
+  position: relative;
+}
+
+#mainBody .__cardMainBodyPacker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */
