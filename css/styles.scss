@@ -87,4 +87,16 @@ html {
       }
     }
   }
+  .btn:focus{
+    box-shadow: 0 0 0 0.2rem #ffffd2a1;
+  }
+}
+
+#mainBody{
+  position: relative;
+  .__cardMainBodyPacker{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }

@@ -6,8 +6,9 @@
     height: fit-content;
     width: fit-content;
     border: 1px solid #ba0000;
-    background-color: #ffe;
+    background-color: #ffeeee9e;
     border-radius: 10px;
+    margin: 1rem 0rem 1rem 0rem;
 }
 
 .__cardMainContainer .__cardPacker{
@@ -42,6 +43,7 @@
     justify-content: center;
     color: floralwhite;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .__cardHeaderIcons i:nth-child(1){
@@ -50,6 +52,11 @@
 
 .__cardHeaderIcons i:nth-child(2){
     background-color: #3FE215;
+}
+
+.__cardHeaderIcons i:nth-child(3){
+    background-color: navy;
+    font-size: 1rem;
 }
 
 .__cardPacker .__cardBody{

@@ -57,3 +57,12 @@ html {
     color: floralwhite; }
   .jumbotron .container form input:focus {
     outline-color: floralwhite; }
+  .jumbotron .btn:focus {
+    box-shadow: 0 0 0 0.2rem #ffffd2a1; }
+
+#mainBody {
+  position: relative; }
+  #mainBody .__cardMainBodyPacker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
